@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 
 // This class component is not needed if there is no state
 // class Header extends React.Component {
