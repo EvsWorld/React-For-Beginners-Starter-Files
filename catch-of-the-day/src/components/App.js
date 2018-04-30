@@ -43,6 +43,10 @@ class App extends React.Component {
       // );
     // }) }
   // }
+  componentDidMount() {
+    this.loadSampleFishes()
+  }
+
 
   render() {
     return (

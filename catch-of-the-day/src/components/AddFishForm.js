@@ -21,6 +21,7 @@ class AddFishForm extends React.Component {
     // {Object.keys(fish).forEach( p => console.log(fish[p]))}
     // every time we submit form, creatFish is called, which now calls addFish (which was passed down from App component.)
     this.props.addFish(fish);
+    event.currentTarget.reset();
   }
 
 
